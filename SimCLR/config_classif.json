@@ -1,0 +1,11 @@
+{
+    "data_dir" : "/workdir/bensaad/namr",
+    "architecture" : "resnet18",    
+    "model_path" : "../results/SimCLR_512",
+    "n_epochs" : 20,
+    "batch_size" : 30,
+    "projection_dim" : 512,
+    "learning_rate" : 1e-3,
+    "model_out_path" : "./results/SimCLR_classif_layer_512"
+
+}

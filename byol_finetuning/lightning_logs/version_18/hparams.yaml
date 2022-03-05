@@ -1,0 +1,9 @@
+batch_size: 50
+criterion: nll
+crop_alpha: false
+data_dir: /home/sylvain/Datasets/roof_type_material/v0/
+freeze_encoder: true
+init_weights_path: best_byol.ckpt
+lr: 0.0003
+n_epochs: 20
+transfer_from: byol

@@ -1,0 +1,6 @@
+batch_size: 100
+data_dir: ../new_dataset
+freeze_encoder: true
+init_weights_path: BYOL-epoch=399-v3.ckpt
+lr: 0.0003
+n_epochs: 20
